@@ -1,0 +1,80 @@
+#background1 {
+  background-image: url("/assets/backgrounds/h_img.jpg");
+  background-position: center center;
+  background-repeat: none;
+  background-size: cover;
+  height: 700px;
+  text-align: center;
+  color: white;
+  border-radius: 5px;
+}
+
+.background1-content{
+  padding-top: 15%;
+}
+
+.logo {
+ margin: 2% 0% 2% 0%;
+}
+
+
+.images {
+  width: 100%;
+  height: auto;
+  margin: 3% 0% 3% 0%;
+  border-radius: 5px;
+  /* position: relative; */
+  display: inline;
+}
+
+.about-us {
+  text-align: center;
+  margin: 4%;
+}
+
+#background2 {
+  background-image: url("/assets/backgrounds/s_image.jpg");
+  height: 300px;
+  border-radius: 5px;
+  background-size: cover;
+  background-position: center center;
+  color: white;
+  text-align: center;
+  padding: 5%;
+}
+
+.what-we-do {
+  text-align: center;
+  margin: 5%;
+}
+
+.what-we-do h3 {
+  margin:4%;
+}
+
+.what-we-do p {
+  font-weight: bold;
+}
+
+.what-we-do img {
+  height:100px
+}
+
+.portfolio-row {
+  width: 100%;
+}
+
+.portfolio {
+  margin: 5%;
+  text-align: center;
+}
+
+.porfolio-images{
+  margin: 5% 1% 5% 1%;
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+
+
