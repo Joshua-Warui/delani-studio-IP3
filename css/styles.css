@@ -13,6 +13,10 @@
   padding-top: 15%;
 }
 
+h3 {
+  font-weight: bold;
+}
+
 .logo {
  margin: 2% 0% 2% 0%;
 }
@@ -79,7 +83,7 @@
 
 #background3 {
   background-image: url("/assets/backgrounds/c_image.jpg");
-  height:300px;
+  height:450px;
   border-radius: 5px;
   background-position: center center;
   margin: 3% 0 3% 0;  
@@ -87,3 +91,18 @@
   text-align: center;
 }
 
+.contact {
+  padding: 5% 0 5% 0;
+  margin: 5%;
+  background-color: transparent;
+}
+
+#feedback{
+  margin: 3% 0 3% 0;
+  width: 80%;
+  height: 200px;
+}
+
+.social-icons {
+  padding: 2%;
+}
