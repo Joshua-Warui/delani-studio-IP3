@@ -8,9 +8,9 @@ This is a website. Copy the URL and paste it in your browser or click on the lin
 #### Technologies Used
 HTML, CSS, BOOTSTRAP, JAVASRIPT, JQUERY
 #### Link to live site
-[Portfolio GitHub Page](https://joshua-warui.github.io/akan-name-IP2/)
+[Portfolio GitHub Page](https://joshua-warui.github.io/delani-studio-IP3/)
 #### Contact Information
 E-mail:josh.w.warui52@gmail.com     
 
 #### License
-[License]
+[License](https://opensource.org/licenses/MIT)
