@@ -5,22 +5,25 @@ $(function(){
       $("#design").toggleClass("opposite")
     });
   });
-});
 
-$(function(){
   $("#development").click(function(){
     $("#img-development").toggle(700, "swing");
     $("#first-p-development").toggle(700,"swing",function(){
       $("#development").toggleClass("opposite")
     });
   });
-});
 
-$(function(){
   $("#product-management").click(function(){
     $("#img-product").toggle(700, "swing");
     $("#first-p-product").toggle(700,"swing",function(){
       $("#product-management").toggleClass("opposite")
     });
   });
+  $("portfolio-images").hover(function(){
+    $("port1").toggle();
+  });
 });
+
+function submit(){
+  alert("Thank you. Your message has been received.")
+}

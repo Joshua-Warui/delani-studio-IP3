@@ -18,6 +18,7 @@
         <h1>TO DELANI STUDIO</h1>
         <br>
         <p>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</p>
+        <img id="mouse-icon" src="/assets/mouse_click.png" alt="mouse-icon">
       </div>
     </div>
     <div class="about-us">
@@ -63,6 +64,7 @@
       <div class="row portfolio-row">
         <div class="col-sm-3">
           <img class="porfolio-images" src="assets/portfolio/work4.jpg" alt="">
+          <p id="port1">Space Demo</p>
         </div>
         <div class="col-sm-3">
           <img class="porfolio-images" src="assets/portfolio/work3.jpg" alt="">
@@ -92,17 +94,21 @@
     <div id="background3">
       <div class="contact">
         <h3>CONTACT US</h3>
-        <div class="row">
-          <div class="col-sm-6">
-            <input class="contact-forms" type="text" placeholder="Name">
+        <form>
+          <div class="row">
+            <div class="col-sm-6">
+              <input class="contact-forms" type="text" placeholder="Name">
+            </div>
+            <div class="col-sm-6">
+              <input class="contact-forms" type="text" placeholder="E-mail">
+            </div>
           </div>
-          <div class="col-sm-6">
-            <input class="contact-forms" type="text" placeholder="E-mail">
+          <div>
+            <input class="contact-forms" type="text" id="feedback" placeholder="Type your message here...">
+            <br>
+            <input type="submit" onclick="submit()">
           </div>
-        </div>
-        <div>
-          <input class="contact-forms" type="text" id="feedback" placeholder="Type your message here...">
-        </div>
+        </form>
       </div>
     </div>
     <div class="social-icons">

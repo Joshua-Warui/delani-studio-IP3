@@ -25,6 +25,9 @@ h3 {
  margin: 2% 0% 2% 0%;
 }
 
+#mouse-icon{
+  padding-top: 10%;
+}
 
 .images {
   width: 100%;
@@ -115,7 +118,6 @@ h3 {
   padding: 2%;
   display: flex;
   justify-content: center;
-  /* align-items: center; */
 }
 
 #first-p-design{
@@ -148,4 +150,10 @@ h3 {
 .opposite{
   background-color: black;
   color: white;
+}
+
+#port1{
+  display: none;
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 100%;
 }
