@@ -3,7 +3,7 @@ body {
 }
 
 #background1 {
-  background-image: url("/assets/backgrounds/h_img.jpg");
+  background-image: url(../assets/backgrounds/h_img.jpg);
   background-position: center center;
   background-repeat: none;
   background-size: cover;
@@ -34,7 +34,6 @@ h3 {
   height: auto;
   margin: 3% 0% 3% 0%;
   border-radius: 5px;
-  /* position: relative; */
   display: inline;
 }
 
@@ -44,7 +43,7 @@ h3 {
 }
 
 #background2 {
-  background-image: url("/assets/backgrounds/s_image.jpg");
+  background-image: url(../assets/backgrounds/s_image.jpg);
   height: 300px;
   border-radius: 5px;
   background-size: cover;
@@ -89,7 +88,7 @@ h3 {
 }
 
 #background3 {
-  background-image: url("/assets/backgrounds/c_image.jpg");
+  background-image: url(../assets/backgrounds/c_image.jpg);
   height:450px;
   border-radius: 5px;
   background-position: center center;
@@ -152,8 +151,10 @@ h3 {
   color: white;
 }
 
-#port1{
+.port-name{
+  position: absolute;
+  top: 40%;
+  left: 30%;
+  color: black;
   display: none;
-  background-color: rgba(255, 255, 255, 0.8);
-  width: 100%;
 }

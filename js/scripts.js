@@ -1,3 +1,19 @@
+function submit(){
+  alert("Thank you. Your message has been received.")
+};
+
+function portfolioHover(column,portImage,portName){
+  $(column).hover(function(){
+    $(portImage).animate({opacity:'0.4'});
+    $(portName).show();
+  },
+  function(){
+    $(portImage).animate({opacity:'1'});
+    $(portName).hide();
+  });
+};
+
+
 $(function(){
   $("#design").click(function(){
     $("#img-design").toggle(700, "swing");
@@ -19,11 +35,15 @@ $(function(){
       $("#product-management").toggleClass("opposite")
     });
   });
-  $("portfolio-images").hover(function(){
-    $("port1").toggle();
-  });
+
+  portfolioHover(".col-1",".port-image1",".port-text1");
+
+  // $(".project").hover(function(){
+    // $(this).animate({opacity:'1'});
+  // },
+  // function(){
+    // $(this).animate({opacity:'0'});
+  // });
+  
 });
 
-function submit(){
-  alert("Thank you. Your message has been received.")
-}
