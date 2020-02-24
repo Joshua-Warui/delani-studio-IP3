@@ -37,13 +37,13 @@ $(function(){
   });
 
   portfolioHover(".col-1",".port-image1",".port-text1");
-
-  // $(".project").hover(function(){
-    // $(this).animate({opacity:'1'});
-  // },
-  // function(){
-    // $(this).animate({opacity:'0'});
-  // });
+  portfolioHover(".col-2",".port-image2",".port-text2");
+  portfolioHover(".col-3",".port-image3",".port-text3");
+  portfolioHover(".col-4",".port-image4",".port-text4");
+  portfolioHover(".col-5",".port-image5",".port-text5");
+  portfolioHover(".col-6",".port-image6",".port-text6");
+  portfolioHover(".col-7",".port-image7",".port-text7");
+  portfolioHover(".col-8",".port-image8",".port-text8");
   
 });
 
