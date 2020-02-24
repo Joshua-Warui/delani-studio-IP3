@@ -1,3 +1,7 @@
+body {
+  font-family: 'lato';
+}
+
 #background1 {
   background-image: url("/assets/backgrounds/h_img.jpg");
   background-position: center center;
@@ -94,7 +98,11 @@ h3 {
 .contact {
   padding: 5% 0 5% 0;
   margin: 5%;
+}
+
+.contact-forms{
   background-color: transparent;
+  color: white;
 }
 
 #feedback{
@@ -105,4 +113,39 @@ h3 {
 
 .social-icons {
   padding: 2%;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+#first-p-design{
+  display:none;
+}
+
+#first-p-development{
+  display:none;
+}
+
+#first-p-product{
+  display:none;
+}
+
+#design{
+  border-radius: 5px;
+  padding: 2% ;
+}
+
+#development{
+  border-radius: 5px;
+  padding: 2% ;
+}
+
+#product-management{
+  border-radius: 5px;
+  padding: 2% ;
+}
+
+.opposite{
+  background-color: black;
+  color: white;
 }

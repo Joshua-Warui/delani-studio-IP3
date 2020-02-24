@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="css/styles.css">
   <title>Delani Studio</title>
 </head>
@@ -28,6 +29,7 @@
     </div>
     <div id="background2">
       <h3>SERVICES</h3>
+      <br>
       <p>Before we sign a contract or write a line of code our team will spend the necessary time needed to understand your product vision</p>
       <p>The outcome of this scoping session is a propasal or high-level statement of work.</p>
       <p>Based on your requirements, we can provide a complete offering of just the pieces you need.</p>
@@ -36,17 +38,23 @@
     <div class="what-we-do">
       <h3>WHAT WE DO</h3>
       <div class="row">
-        <div class="col-sm-4">
-          <img src="assets/services_icons/design_icon.png" alt="picture of a pen">
-          <p>DESIGN</p>
+        <div class="col-sm-4" id="design">
+          <img id="img-design" src="assets/services_icons/design_icon.png" alt="picture of a pen">
+          <p id="design-header">DESIGN</p>
+          <p id="first-p-design">Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.
+            Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.</p>
         </div>
-        <div class="col-sm-4">
-          <img src="assets/services_icons/dev_icon.png" alt="picture of an empty computer window">
-          <p>DEVELOPMENT</p>
+        <div class="col-sm-4" id="development">
+          <img id="img-development" src="assets/services_icons/dev_icon.png" alt="picture of an empty computer window">
+          <p id="development-header">DEVELOPMENT</p>
+          <p id="first-p-development">All engineers are fluent in the latest enterprise, mobile and web development technologies.
+            They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</p>
         </div>
-        <div class="col-sm-4">
-          <img src="assets/services_icons/product_icon.png" alt="picture of a checklist">
-          <p>PRODUCT MANAGER</p>
+        <div class="col-sm-4" id="product-management">
+          <img id="img-product" src="assets/services_icons/product_icon.png" alt="picture of a checklist">
+          <p id="product-header">PRODUCT MANAGEMENT</p>
+          <p id="first-p-product">Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live. 
+            This iterative process allows for changes as business requirements evolve.</p>
         </div>
       </div>
     </div>
@@ -86,14 +94,14 @@
         <h3>CONTACT US</h3>
         <div class="row">
           <div class="col-sm-6">
-            <input type="text" placeholder="Name">
+            <input class="contact-forms" type="text" placeholder="Name">
           </div>
           <div class="col-sm-6">
-            <input type="text" placeholder="E-mail">
+            <input class="contact-forms" type="text" placeholder="E-mail">
           </div>
         </div>
         <div>
-          <input type="text" id="feedback" placeholder="Type your message here...">
+          <input class="contact-forms" type="text" id="feedback" placeholder="Type your message here...">
         </div>
       </div>
     </div>
@@ -109,5 +117,7 @@
       <a href=""><img src="/assets/social_icons/flickr.png" alt="flickr"></a>
     </div>
   </div>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="js/scripts.js"></script>
 </body>
 </html>
