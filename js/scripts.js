@@ -5,11 +5,11 @@ function submit(){
 function portfolioHover(column,portImage,portName){
   $(column).hover(function(){
     $(portImage).animate({opacity:'0.4'});
-    $(portName).show();
+    $(portName).show("fast");
   },
   function(){
     $(portImage).animate({opacity:'1'});
-    $(portName).hide();
+    $(portName).hide("fast");
   });
 };
 

@@ -159,3 +159,11 @@ h3 {
   color: black;
   display: none;
 }
+
+.col-sm-3{
+  cursor: pointer;
+}
+
+.col-sm-4{
+  cursor: pointer;
+}

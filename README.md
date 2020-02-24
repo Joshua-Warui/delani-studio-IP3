@@ -13,4 +13,8 @@ HTML, CSS, BOOTSTRAP, JAVASRIPT, JQUERY
 E-mail:josh.w.warui52@gmail.com     
 
 #### License
+Copyright 2020 Joshua Warui
+
+MIT License
+
 [License](https://opensource.org/licenses/MIT)
